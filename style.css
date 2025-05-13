@@ -5,12 +5,3 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-h1 {
-    font-weight: lighter;
-    border-radius: 50%;
-}
-
-h1 span {
-    background-color: #D9D9D9;
-}
-

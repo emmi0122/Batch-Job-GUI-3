@@ -1,92 +1,112 @@
 <template>
     <nav class="sidebar">
         <div class="sidebar-logo">
-            <!-- <img src="Assets/avatar.png" alt="Logo of company"> -->
-            <span class="logo-text">T</span>
+            <img src="../assets/logo.png" alt="Company logo" class="logo-text">
         </div>
 
-        <ul class="sidebar-menu">
-            <li><span class="icon"><i class="fas fa-search"></i></span></li>
-            <li><span class="icon"><i class="fas fa-home"></i></span></li>
-            <li><span class="icon"><i class="fas fa-users"></i></span></li>
-            <li><span class="icon"><i class="fas fa-clock"></i></span></li>
-            <li><span class="icon"><i class="fas fa-briefcase"></i></span></li>
-        </ul>
+        <div class="sidebar-search">
+            <img src="../assets/search.png" alt="Search icon">
+        </div>
+
+        <div class="sidebar-menu">
+            <img src="../assets/home.png" alt="Home icon">
+            <img src="../assets/diagram.png" alt="Diagram icon">
+            <img src="../assets/bell.png" alt="Bell icon">
+            <img src="../assets/pizza-diagram.png" alt="Pizza diagram icon">
+            <img src="../assets/inbox.png" alt="Inbox icon">
+        </div>
 
         <div class="sidebar-bottom">
-            <span class="icon"><i class="fas fa moon"></i></span>
+            <img src="../assets/leave.png" alt="Leave icon">
+
+            <div class="dark-mode-switch">
+                <div class="switch-circle">
+                    <img src="../assets/moon.png" alt="Moon icon for light or dark mode switch">
+                </div>
+            </div>
+
+
         </div>
     </nav>
 </template>
 
 <style scoped>
 .sidebar {
-    width: 70px;
-    background: #f8f9fc;
-    height: 100vh;
+    width: 5rem;
+    background: #FFFFFF;
+
     display: flex;
     flex-direction: column;
     align-items: center;
-    border-right: 1px solid #e0e0e0;
+    /*border-right: 1px solid #e0e0e0;*/
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 100;
+}
+
+img {
+    width: 1.3rem;
 }
 
 .sidebar-logo {
-    margin: 24px 0 24px 0;
+    margin-top: 1rem;
 }
 
 .logo-text {
-    font-size: 2.2rem;
-    font-weight: bold;
-    color: #22356f;
-    background: #e3eafc;
-    border-radius: 50%;
-    width: 48px;
-    height: 48px;
-    display: flex;
-    align-items: center;
-    justify-self: center;
+    width: 3rem;
+    border-radius: 0.8rem;
+}
+
+.sidebar-search {
+    margin-top: 2.5rem;
+    cursor: pointer;
 }
 
 .sidebar-menu {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-    flex: 1;
+    margin-top: 3rem;
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 2rem;
+    justify-content: flex-start;
+    cursor: pointer;
 }
 
-.sidebar-menu li {
-    width: 100%;
+.sidebar-bottom {
+    margin-top: 12rem;
+    margin-bottom: 2rem;
     display: flex;
-    justify-content:  center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    cursor: pointer;
 }
 
-.icon {
+.dark-mode-switch {
+    width: 4rem;
+    height: 2.3rem;
+    background-color: #0723304D;
+    border-radius: 2rem;
+    position: relative;
+    cursor: pointer;
     display: flex;
     align-items: center;
+    justify-content: flex-end;
+}
+
+.switch-circle {
+    width: 2rem;
+    height: 2rem;
+    margin-right: 2px;
+    background-color: #0B2530;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;    
     justify-content: center;
-    width: 40px;
-    height: 40px;
-    font-size: 1.5rem;
-    color: #22356f;
-    border-radius: 12px;
 }
 
-.icon:hover {
-    background: #e3eafc;
-}
-
-.sidebar-botton {
-    margin-bottom: 24px;
-}
-
-.sidebar-bottom .icon {
-    font-size: 1.7rem;
+.switch-circle img {
+    width: 1.2rem;
+    height: 1.2rem;
+    object-fit: contain;
 }
 </style>

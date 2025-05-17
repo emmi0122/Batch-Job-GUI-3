@@ -1,6 +1,5 @@
 <template>
   <Sidebar />
-  <router-view />
 </template>
 
 <script setup>
@@ -12,6 +11,7 @@ body {
   margin: 0;
   font-family: 'Inter', sans-serif;
 }
+
 #app {
   display: flex;
 }

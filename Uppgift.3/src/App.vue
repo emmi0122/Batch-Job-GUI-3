@@ -1,6 +1,7 @@
 <template>
   <Sidebar />
   <div><Employee /></div>
+  <EmployeeShifts />
 </template>
 
 <script setup>

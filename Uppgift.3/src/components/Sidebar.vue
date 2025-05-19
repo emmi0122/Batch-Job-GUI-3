@@ -32,14 +32,13 @@
 
 <style scoped>
 .sidebar {
-    width: 5rem;
     background: #FFFFFF;
 
     display: flex;
     flex-direction: column;
     align-items: center;
-    /*border-right: 1px solid #e0e0e0;*/
-    position: fixed;
+    padding: 0.5rem;
+    border-right: 1px solid #e0e0e0;
     top: 0;
     left: 0;
 }
@@ -66,6 +65,7 @@ img {
     margin-top: 3rem;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 2rem;
     justify-content: flex-start;
     cursor: pointer;

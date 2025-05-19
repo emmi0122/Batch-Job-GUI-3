@@ -185,7 +185,6 @@
 
 <style scoped>
 * {
-  margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
@@ -194,8 +193,8 @@ button {
   all: unset;
 }
 
-body {
-  margin: 0;
+header {
+  margin-left: 1rem;
   padding: 2rem;
   background-color: #ffffff;
   font-family: "Roboto", sans-serif;

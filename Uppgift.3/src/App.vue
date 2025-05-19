@@ -1,15 +1,17 @@
 <template>
   <Sidebar />
+  <Header />
 </template>
 
 <script setup>
-import Sidebar from './components/Sidebar.vue'
+import Header from "./components/Header.vue";
+import Sidebar from "./components/Sidebar.vue";
 </script>
 
 <style>
 body {
   margin: 0;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
 }
 
 #app {

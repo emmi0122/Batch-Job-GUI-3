@@ -1,9 +1,9 @@
 <template>
   <Sidebar />
   <div><Employee /></div>
-  <Header />
-  <EmployeeShifts />
+  <div><Header /></div>
 </template>
+
 
 <script setup>
 import Sidebar from "./components/Sidebar.vue";

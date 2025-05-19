@@ -49,6 +49,10 @@ img {
 
 .sidebar-logo {
     margin-top: 1rem;
+
+    img {
+        width: 4rem;
+    }
 }
 
 .logo-text {
@@ -72,7 +76,7 @@ img {
 }
 
 .sidebar-bottom {
-    margin-top: 12rem;
+    margin-top: 11rem;
     margin-bottom: 2rem;
     display: flex;
     flex-direction: column;
@@ -86,7 +90,6 @@ img {
     height: 2.3rem;
     background-color: #0723304D;
     border-radius: 2rem;
-    position: relative;
     cursor: pointer;
     display: flex;
     align-items: center;
@@ -106,7 +109,6 @@ img {
 
 .switch-circle img {
     width: 1.2rem;
-    height: 1.2rem;
     object-fit: contain;
 }
 </style>

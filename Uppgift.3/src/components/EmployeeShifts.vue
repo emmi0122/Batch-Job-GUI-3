@@ -1,29 +1,337 @@
-
-<script setup>
-import { ref } from "vue";
-
-const arr = [
-  new URL("../assets/grey-square.png", import.meta.url).href,
-  new URL("../assets/green-square.png", import.meta.url).href,
-  new URL("../assets/green-striped-square.png", import.meta.url).href,
-  new URL("../assets/blue-square.png", import.meta.url).href,
-];
-
-const index = ref(0);
-
-const nextImage = () => {
-  index.value = (index.value + 1) % arr.length;
-};
-</script>
+<!-- "../assets/grey-square.png"
+ "../assets/green-square.png"
+  "../assets/green-striped-square.png"
+ "../assets/blue-square.png" -->
 
 <template>
-  <button @click="nextImage">
-    <img :src="arr[index]" alt="image" />
-  </button>
+    <div class="schedule-grid">
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+    </div>
+    <div class="schedule-grid">
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+    </div>
+    <div class="schedule-grid">
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+
+
+    </div>
+
+    <div class="schedule-grid">
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+
+
+    </div>
+
+    <div class="schedule-grid">
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+
+
+    </div>
+
+    <div class="schedule-grid">
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+
+
+    </div>
+
+    <div class="schedule-grid">
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+
+
+    </div>
+
+    <div class="schedule-grid">
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+
+
+    </div>
+
+    <div class="schedule-grid">
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
+        <img src="../assets/green-square.png" alt="image" />
+        <img src="../assets/green-striped-square.png" alt="image" />
+        <img src="../assets/blue-square.png" alt="image" />
+    </div>
+
+
+
+
+
+
+
 </template>
 
 <style scoped>
-button {
-  all: unset;
+.schedule-grid {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+
+
+}
+
+img {
+    width: 30px;
+    height: 60px;
+    margin-left: 0.2rem;
 }
 </style>

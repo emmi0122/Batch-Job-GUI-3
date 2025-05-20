@@ -8,17 +8,9 @@
 
       <div class="month-nav-container">
         <div id="month-nav">
-          <img
-            src="../assets/arrow-right.png"
-            alt="arrow-left"
-            id="arrow-left"
-          />
+          <img src="../assets/arrow-right.png" alt="arrow-left" id="arrow-left" />
           <h3>Januari</h3>
-          <img
-            src="../assets/arrow-right.png"
-            alt="arrow-right"
-            id="arrow-right"
-          />
+          <img src="../assets/arrow-right.png" alt="arrow-right" id="arrow-right" />
         </div>
       </div>
     </div>
@@ -30,10 +22,7 @@
       </div>
 
       <div class="colors">
-        <img
-          src="../assets/green-striped-circle.png"
-          alt="green-striped-circle.png"
-        />
+        <img src="../assets/green-striped-circle.png" alt="green-striped-circle.png" />
         Preliminärt bokad
       </div>
 
@@ -194,7 +183,6 @@ button {
 }
 
 header {
-  margin-left: 1rem;
   padding: 2rem;
   background-color: #ffffff;
 }
@@ -230,8 +218,8 @@ header {
 }
 
 .numbers {
- margin: 1rem 1rem 0rem 1rem;
- font-size: 1rem;
+  margin: 1rem 1rem 0rem 1rem;
+  font-size: 1rem;
 }
 
 .month-nav-container {

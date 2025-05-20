@@ -1,8 +1,13 @@
 <template>
   <Sidebar />
-  <div><Employee /></div>
-  <EmployeeShifts/>
-  <div><Header /></div>
+  <div>
+    <Employee />
+  </div>
+  <div id="schedule-and-header">
+    <Header />
+    <EmployeeShifts />
+  </div>
+
 
 </template>
 
@@ -19,4 +24,6 @@ body {
   margin: 0;
   font-family: PolySans Trial;
 }
+
+#schedule-and-header {}
 </style>

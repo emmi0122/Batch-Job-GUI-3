@@ -12,7 +12,7 @@
         <img src="../assets/blue-square.png" alt="image" />
         <img src="../assets/blue-square.png" alt="image" />
         <img src="../assets/blue-square.png" alt="image" />
-        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
         <img src="../assets/green-striped-square.png" alt="image" />
         <img src="../assets/blue-square.png" alt="image" />
         <img class="double-digits" src="../assets/green-square.png" alt="image" />
@@ -45,7 +45,7 @@
         <img src="../assets/green-striped-square.png" alt="image" />
         <img src="../assets/green-square.png" alt="image" />
         <img src="../assets/green-striped-square.png" alt="image" />
-        <img src="../assets/blue-square.png" alt="image" />
+        <img src="../assets/grey-square.png" alt="image" />
         <img src="../assets/grey-square.png" alt="image" />
         <img src="../assets/blue-square.png" alt="image" />
         <img src="../assets/green-striped-square.png" alt="image" />

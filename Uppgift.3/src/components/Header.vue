@@ -195,16 +195,13 @@ button {
 
 header {
   margin-left: 1rem;
-  /*padding: 0.8rem 1.2rem 0.8rem 1.2rem;*/
   padding: 2rem;
   background-color: #ffffff;
-  font-family: "Roboto", sans-serif;
 }
 
 #top-part {
   display: flex;
   gap: 1rem;
-  /*gap: 0.5rem;*/
 }
 
 #month-nav {
@@ -230,14 +227,10 @@ header {
   gap: 1rem;
   margin-top: 1rem;
   margin-bottom: 2rem;
-  /*gap: 0.5rem;
-  margin-top: 0.5rem;
-  margin-bottom: 1rem;*/
 }
 
 .numbers {
  margin: 1rem 1rem 0rem 1rem;
- /*margin: 0.5rem 0.5rem 0 0.5rem;*/
  font-size: 1rem;
 }
 
@@ -253,8 +246,6 @@ header {
   justify-content: center;
   gap: 1.2rem;
   font-size: large;
-  /*gap: 0.7rem;
-  font-size: medium;*/
 }
 
 #selected {
@@ -278,10 +269,8 @@ header {
 #weeks {
   display: flex;
   gap: 14.5rem;
-  /*gap: 7rem;*/
   border-bottom: 3px solid rgb(192, 191, 191);
   padding-bottom: 0.7rem;
-  /*padding-bottom: 0.4rem;*/
 }
 
 #vecka3 {

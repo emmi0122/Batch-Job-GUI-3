@@ -15,6 +15,6 @@ import Header from "./components/Header.vue";
 <style>
 body {
   margin: 0;
-  font-family: "Inter", sans-serif;
+  font-family: PolySans Trial;
 }
 </style>

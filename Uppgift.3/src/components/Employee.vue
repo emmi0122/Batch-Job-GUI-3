@@ -11,14 +11,14 @@
         <div class="employee-controls">
             <div class="sort-filter-buttons">
                 <button class="sort-button">
-                <img src="../assets/sort.png" alt="Sort button">
-                Sortering
-            </button>
+                    <img src="../assets/sort.png" alt="Sort button">
+                    Sortering
+                </button>
 
-            <button class="filter-button">
-                <img src="../assets/filter.png" alt="Filter button">
-                Filter
-            </button>
+                <button class="filter-button">
+                    <img src="../assets/filter.png" alt="Filter button">
+                    Filter
+                </button>
             </div>
             <div class="employee-label">Anställda</div>
         </div>
@@ -52,6 +52,7 @@ const employeeProfessions = ["Elektriker, Murare, Snickare, VVS", "Snickare", "E
     padding: 2rem 2.5rem;
     margin-bottom: 6.5rem;
 }
+
 .boss-info {
     display: flex;
     flex-direction: column;
@@ -71,7 +72,7 @@ const employeeProfessions = ["Elektriker, Murare, Snickare, VVS", "Snickare", "E
     margin-right: 1rem;
 }
 
-.employee-info h4, 
+.employee-info h4,
 .boss-info h4 {
     margin: 0;
     font-size: medium;
@@ -97,6 +98,7 @@ const employeeProfessions = ["Elektriker, Murare, Snickare, VVS", "Snickare", "E
     display: flex;
     flex-direction: row;
     gap: 0.5rem;
+    font-family: Inter;
 }
 
 .sort-button,

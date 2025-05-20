@@ -25,5 +25,7 @@ body {
   font-family: PolySans Trial;
 }
 
-#schedule-and-header {}
+header {
+  margin-bottom: 3rem;
+}
 </style>

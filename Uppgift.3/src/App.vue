@@ -1,7 +1,9 @@
 <template>
   <Sidebar />
   <div><Employee /></div>
+  <EmployeeShifts/>
   <div><Header /></div>
+
 </template>
 
 

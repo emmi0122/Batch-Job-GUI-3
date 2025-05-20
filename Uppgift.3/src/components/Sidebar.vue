@@ -1,7 +1,7 @@
 <template>
     <nav class="sidebar">
         <div class="sidebar-logo">
-            <img src="../assets/logo.png" alt="Company logo" class="logo-text">
+            <img src="../assets/logo.png" alt="Company logo">
         </div>
 
         <div class="sidebar-search">
@@ -33,50 +33,40 @@
 <style scoped>
 .sidebar {
     background: #FFFFFF;
-
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0.5rem;
+    padding: 1.5rem;
     border-right: 1px solid #e0e0e0;
     top: 0;
     left: 0;
 }
 
 img {
-    width: 1.3rem;
+    width: 2rem;
 }
 
-.sidebar-logo {
-    margin-top: 1rem;
-
-    img {
-        width: 4rem;
-    }
-}
-
-.logo-text {
-    width: 3rem;
-    border-radius: 0.8rem;
+.sidebar-logo img{
+    width: 4rem;
 }
 
 .sidebar-search {
-    margin-top: 2.5rem;
+    margin-top: 5rem;
     cursor: pointer;
 }
 
 .sidebar-menu {
-    margin-top: 3rem;
+    margin-top: 7rem;
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 2rem;
+    gap: 5rem;
     justify-content: flex-start;
     cursor: pointer;
 }
 
 .sidebar-bottom {
-    margin-top: 11rem;
+    margin-top: 24rem;
     margin-bottom: 2rem;
     display: flex;
     flex-direction: column;

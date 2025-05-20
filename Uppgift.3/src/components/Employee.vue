@@ -41,7 +41,7 @@ const employeeProfessions = ["Elektriker, Murare, Snickare, VVS", "Snickare", "E
 <style scoped>
 .employees {
     margin-left: 3rem;
-    width: 12rem;
+    width: 15rem;
 }
 
 .boss-card {
@@ -49,8 +49,8 @@ const employeeProfessions = ["Elektriker, Murare, Snickare, VVS", "Snickare", "E
     align-items: center;
     background-color: #E9E9E9;
     border-radius: 0 0 2rem 2rem;
-    padding: 2rem 0.5rem;
-    margin-bottom: 3rem;
+    padding: 2rem 2.5rem;
+    margin-bottom: 6.5rem;
 }
 .boss-info {
     display: flex;
@@ -61,12 +61,12 @@ const employeeProfessions = ["Elektriker, Murare, Snickare, VVS", "Snickare", "E
 .employee-card {
     display: flex;
     align-items: center;
-    padding: 0.5rem;
+    padding: 1rem;
 }
 
 .employee-card img,
 .boss-card img {
-    width: 2.5rem;
+    width: 4rem;
     border-radius: 50%;
     margin-right: 1rem;
 }
@@ -74,13 +74,13 @@ const employeeProfessions = ["Elektriker, Murare, Snickare, VVS", "Snickare", "E
 .employee-info h4, 
 .boss-info h4 {
     margin: 0;
-    font-size: small;
+    font-size: medium;
 }
 
 .employee-info p,
 .boss-info p {
     margin: 0;
-    font-size: smaller;
+    font-size: medium;
     color: #888;
 }
 
@@ -89,7 +89,8 @@ const employeeProfessions = ["Elektriker, Murare, Snickare, VVS", "Snickare", "E
     flex-direction: column;
     gap: 0.5rem;
     align-items: flex-start;
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
+    margin-left: 1rem;
 }
 
 .sort-filter-buttons {
